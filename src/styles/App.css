@@ -14,29 +14,18 @@ body {
   height: 100%;
   display: flex;
   gap: 5%;
-  background-color: white;
-}
-.form {
-  display: flex;
-  margin: 5px;
-  flex-direction: column;
-  gap: 20px;
-  width: 30%;
-  background-color: red;
-}
-
-input {
-  width: 80%;
 }
 
 .resume {
   display: flex;
   flex-direction: column;
   background-color: gray;
-  margin: 5px;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
   padding: 5px;
   gap: 5px;
-  width: 65%;
+  width: 50%;
 }
 
 .divider {

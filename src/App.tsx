@@ -1,15 +1,11 @@
 import { useState } from "react";
-import "./App.css";
-
+import "./styles/App.css";
+import Edit from "./components/Edit";
 function App() {
   return (
     <>
       <div className="container">
-        <div className="form">
-          <input></input>
-          <input></input>
-          <input></input>
-        </div>
+        <Edit />
         <div className="resume">
           <div className="divider">Education</div>
           <div className="divider">Professional Experience</div>
