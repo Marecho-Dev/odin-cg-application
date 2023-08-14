@@ -2,18 +2,21 @@ import { useState } from "react";
 import "../styles/Edit.css";
 
 function Edit() {
+  const [name, setName] = useState("");
   return (
     <>
-      <div className="editContainer">
+      <div className="container">
         <div className="contact">
-          <label>Full Name</label>
-          <input></input>
-          <label>Email</label>
-          <input></input>
-          <label>Phone Number</label>
-          <input></input>
-          <label>City and State</label>
-          <input></input>
+          <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="name" name="name"></input>
+            <label>Email</label>
+            <input type="text" name="email"></input>
+            <label>Phone Number</label>
+            <input type="text" name="phone"></input>
+            <label>City and State</label>
+            <input type="text" name="location"></input>
+          </form>
         </div>
 
         <div className="education">
